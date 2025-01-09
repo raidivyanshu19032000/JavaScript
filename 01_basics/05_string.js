@@ -33,10 +33,5 @@ console.log(gameName.split('-'));
 
 
 
-
-
-
 // Note => Difference between splice and slice 
-// => splice will not entertain the negative value while slice will entertain the negative value and take the indexing from last of the given string 
-
-
+// => splice will not entertain the negative value while slice will entertain the negative value and take the indexing from last of the given string.
