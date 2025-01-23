@@ -1,0 +1,7 @@
+1. What is the global object of browser
+=> Windows => To check type in console => console.log(this)
+2. Differece between function and Arrow function ? 
+=> 
+
+
+
