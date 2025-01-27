@@ -1,7 +1,45 @@
 1. What is the global object of browser
 => Windows => To check type in console => console.log(this)
+
+
 2. Differece between function and Arrow function ? 
 => 
 
 
+3. Map, Filter and Reduce ? 
+=> map():
+    Definition: The map() method is used to create a new array by applying a function to each element of the original array. It doesn't modify the original array.
+
+    Key Points:
+        Returns a new array.
+        The length of the new array is the same as the original array.
+
+        example: 
+        const numbers = [1, 2, 3, 4, 5];
+        const squared = numbers.map(num => num * num);
+        console.log(squared); // Output: [1, 4, 9, 16, 25]
+        
+  filter():
+    Definition: The filter() method creates a new array with all elements that pass the test implemented by the provided function. It doesn't modify the original array.
+
+    Key Points:
+        Returns a new array.
+        Only includes elements that satisfy the condition (return true).
+
+        example: 
+        const numbers = [1, 2, 3, 4, 5];
+        const evenNumbers = numbers.filter(num => num % 2 === 0);
+        console.log(evenNumbers); // Output: [2, 4]
+
+  reduce():
+    Definition: The reduce() method executes a reducer function on each element of the array, resulting in a single output value. It can be used for aggregations or transformations.
+
+    Key Points:
+        Takes two arguments: a callback function and an optional initial value.
+        The callback function has four parameters: accumulator, currentValue, currentIndex, and array.
+
+        example:
+        const numbers = [1, 2, 3, 4, 5];
+        const sum = numbers.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+        console.log(sum); // Output: 15
 

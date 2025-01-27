@@ -35,3 +35,6 @@ const shoppingCart = [
 
 const finalAmount = shoppingCart.reduce ((acc, itemPrice) => acc + itemPrice.price, 0)
 console.log(finalAmount);
+
+
+// Reduce in js (use of reduce)
