@@ -43,3 +43,6 @@
         const sum = numbers.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
         console.log(sum); // Output: 15
 
+
+4. Event bubbling, Event Capturing, Event PreventDefault() ? 
+
